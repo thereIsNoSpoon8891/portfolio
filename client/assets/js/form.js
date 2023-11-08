@@ -69,7 +69,7 @@ btn.addEventListener("click", () => {
          email: email,
          message: message
       }
-
+      const serverHost = "https://portfolio-cqoa.onrender.com/api/mail"
       const api = '/api/mail'
       const params = {
          method: 'POST',
