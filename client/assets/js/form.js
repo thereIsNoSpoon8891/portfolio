@@ -70,7 +70,7 @@ btn.addEventListener("click", () => {
          message: message
       }
 
-      const api = 'http://localhost:8080/api/mail'
+      const api = '/api/mail'
       const params = {
          method: 'POST',
          body: JSON.stringify(formData),
